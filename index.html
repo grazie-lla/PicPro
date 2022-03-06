@@ -5,6 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PicPro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
 
 <body>
@@ -20,12 +25,13 @@
 </header>
 <main>
   <section class="secaoDetalhesConta">
+    <div class="container">
       <div class="secaoDetalhesConta_sobreUsuario">
           <img src="./assets/img/usuario.png" alt="ícone do usuário">
           <p>Olá, <strong>@mariaporcina</strong></p>
       </div>
       <div class="secaoDetalhesConta_saldo">
-        <p>Saldo PicPay, <strong>R$ 0,00</strong></p>
+        <p>Saldo PicPay <strong>R$ 0,00</strong></p>
         <button>Extrato</button>
       </div>
       <ul class="secaoDetalhesConta_opcoesTransacoes">
@@ -46,10 +52,11 @@
         <p>Cobrar</p>
         </li>
       </ul>
+    </div>
   </section>
   
   <section class="secaoTransacao">
-    <div class="conteiner">
+    <div class="container">
       <div class="secaoTransacao_avisoSelecao">
         <p>Selecione a forma de pagamento</p>
         <img src="./assets/img/banner.png" alt="Banner do picpay">
@@ -58,7 +65,7 @@
         <img src="./assets/img/qrcode-imagem.png" alt="imagem QR Code">
         <p>@mariaporcina</p>
         <button>Cobre um amigo</button>
-        <strong>Compartilhar meu código</strong>
+        <a href="">Compartilhar meu código</a>
       </div>
       <div class="secaoTransacao_pix">
         <img src="./assets/img/pix-logo.png" alt="Logo pix">
@@ -89,6 +96,7 @@
     </div>
   </section>
   <footer class="rodape">
+    <div class="container">
     <ul class="rodape_menuPrincipal">
       <li class="rodape_menuItem">
         <a href="#">
@@ -102,7 +110,7 @@
           <p>carteira</p>
         </a>
       </li>
-      <li class="rodape_menuPrincipal">
+      <li class="rodape_menuPrincipal-pagar">
         <a href="#">
           <img src="./assets/img/pagar.png" alt="ícone pagar">
           <p>Pagar</p>
@@ -121,6 +129,7 @@
         </a>
       </li>
     </ul>
+    </div>
   </footer>
 </main>
 </body>
